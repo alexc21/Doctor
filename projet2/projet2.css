@@ -1,7 +1,21 @@
 h1{
+text-align: center;
+font-family:arvo;
+}
+.row {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+h1{
     font-family: arvo;
 }
 p{
+    float: right;
     text-align:center;
     font-family:arvo;
+}
+.col-lg-6{
+    display: table-cell;
 }

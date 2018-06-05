@@ -10,21 +10,21 @@
 <script src="projet2.js"></script>
 </head>
 <body>
+    <h1>le corps humain</h1>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8">
-                <h1>le corps humain</h1>
+            <div class="col-lg-6">
                  <img id="corp" usemap="#corpse" src="images/corp.png" alt="" />
                 <map name="corpse">
-                    <area id="epaule" shape="circle" onmouseover="epaule()" target="_self" coords="36,108,22" />
-                    <area id="coude" shape="circle" onmouseover="coude()" target="_self" coords="138,210,22"  />
-                    <area id="poignet" shape="circle" onmouseover="poignet()" target="_self" coords="21,244,21"  />
-                    <area id="hanche" shape="circle" onmouseover="hanche()" target="_self"  coords="114,261,23"  />
-                    <area id="genou" shape="circle" onmouseover="genou()" target="_self" coords="56,370,22" />
-                    <area id="cheville" shape="circle" onmouseover="cheville()" target="_self" coords="99,461,22" />
+                    <area id="epaule" shape="circle" onclick="epaule()" target="_self" coords="36,108,22" />
+                    <area id="coude" shape="circle" onclick="coude()" target="_self" coords="138,210,22"  />
+                    <area id="poignet" shape="circle" onclick="poignet()" target="_self" coords="21,244,21"  />
+                    <area id="hanche" shape="circle" onclick="hanche()" target="_self"  coords="114,261,23"  />
+                    <area id="genou" shape="circle" onclick="genou()" target="_self" coords="56,370,22" />
+                    <area id="cheville" shape="circle" onclick="cheville()" target="_self" coords="99,461,22" />
                 </map>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <p id="bla">
                 
                 </p>
@@ -32,4 +32,3 @@
         </div>
 </body>
 </html>
-
